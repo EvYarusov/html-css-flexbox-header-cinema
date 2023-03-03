@@ -6,3 +6,33 @@ main {
   width: 400vh;
 }
 
+.header_image {
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+}
+
+.header_items {
+  display: flex;
+  justify-content: center;  
+}
+
+.logo, .oscar, .play {
+  z-index: 2;
+  padding: 5px 20px;
+  color: white;
+  
+}
+
+.search {
+  z-index: 2;
+  padding: 5px;
+  width: 300px;
+}
+
+/* .oscar {
+  z-index: 2;
+}
+.play {
+  z-index: 2;
+} */
