@@ -39,11 +39,17 @@ main {
 
 .play, .oscar, .search, .enter {
   filter: brightness(70%);
+  opacity: 0.8;
+}
+
+.play:hover, .oscar:hover, .enter:hover {
+  filter: brightness(100%);
+  opacity: 1;
 }
 
 .logo{
   height: 35px;
-  margin-right: 60px;  
+  margin-right: 70px;  
 }
 
 #play_img, #oscar_img {
@@ -51,11 +57,24 @@ main {
 }
 
 .search {
+  background-color: rgb(63, 59, 67);
+  color: white;
   height: fit-content;
   width: 300px;
-  padding: 5px 20px;
-  margin-right: 60px;
+  padding: 10px 20px;
+  margin-right: 70px;
   border: 0px;
   border-radius: 8px;
 }
 
+.plus {
+  background-color: rgb(96, 85, 244);
+  border: 0px;
+  border-radius: 30px;
+  padding: 8px 20px;
+  font-size: 12px;
+}
+
+.enter {
+  text-decoration: none;
+}
